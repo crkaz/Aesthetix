@@ -1,0 +1,247 @@
+﻿@font-face {
+    font-family: 'Filth of Icarus';
+    src: url('Resources/filthoficarus.ttf')
+}
+@font-face {
+    font-family: 'Agency FB';
+    src: url('Resources/agencyfb.ttf')
+}
+@font-face {
+    font-family: 'Gadugi';
+    src: url('Resources/gadugi.ttf')
+}
+body {
+    background-color: #162225;
+    position: absolute;
+    width: 100%;
+    height: 97%;
+    margin: 0 auto;
+    margin-right: 0.5%;
+    margin-top: 0.5%;
+    min-height: 257px;
+    max-width: 1920px
+}
+a:link,
+a:visited {
+    color: #162C32;
+    text-decoration: none
+}
+a:hover,
+a:active {
+    color: #336E7B;
+    text-decoration: none
+}
+#sidebar {
+    min-width: 270px;
+    background-color: white;
+    font-family: "Filth of Icarus";
+    color: #162225;
+    text-align: center;
+    font-weight: lighter;
+    width: 28%;
+    float: left;
+    height: 100%;
+    position: relative;
+    margin-bottom: 0.5%;
+    margin-left: 0.5%
+}
+#header {
+    width: 100%;
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    bottom: 60%;
+    border-top: dotted;
+    border-bottom: dotted;
+    border-color: #336E7B
+}
+#navbar {
+    width: 100%;
+    font-size: 2em;
+    line-height: 35px;
+    position: absolute;
+    bottom: 23%
+}
+#footer {
+    width: 96%;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.7em;
+    line-height: 15px;
+    position: absolute;
+    bottom: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #336E7B
+}
+#content {
+    color: #162225;
+    font-family: "Gadugi";
+    line-height: 20px;
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 60.5%;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0.5%;
+    margin-left: 0.5%;
+    overflow: scroll;
+    padding-left: 5%;
+    padding-right: 5%
+}
+div.calltoaction1 {
+    background-image: url('Resources/bubbling.png');
+    border: 2px solid #19B5FE;
+    border-radius: 2px;
+    color: #19B5FE;
+    margin-top: 4%;
+    padding: 2%
+}
+h1.contentheader {
+    text-decoration: underline;
+    line-height: 30px;
+    font-family: "agency fb"
+}
+h5.snippet {
+    border-style: solid;
+    border-color: #19B5FE;
+    border-width: 1px;
+    line-height: 25px;
+    padding: 2%
+}
+div.calltoaction2 {
+    color: #19B5FE
+}
+#cCalcV2 {
+    position: relative;
+    bottom: 0%;
+    border-top: 2px solid #336E7B;
+    border-bottom: 2px solid #336E7B;
+    padding: 2%
+}
+input[type=text],
+select {
+    width: 180px;
+    text-align: center;
+    margin: 8px 0;
+    background-color: #162C32;
+    color: white
+}
+input[type=text]:focus,
+select {
+    border: 2px solid #336E7B;
+    border-radius: 4px
+}
+select {
+    width: auto
+}
+input[type=submit] {
+    text-align: center;
+    margin: 8px 0;
+    background-color: #162C32;
+    color: white
+}
+input[type=submit]:focus {
+    border: 2px solid #19B5FE;
+    border-radius: 2px
+}
+img.image {
+    border: 2px solid #19B5FE;
+    border-radius: 2px;
+    position: relative
+}
+img.left {
+    margin-right: 3%;
+    margin-bottom: 3%;
+    float: left;
+    width: 45%;
+    max-width: 370px
+}
+img.right {
+    margin-left: 3%;
+    margin-bottom: 3%;
+    float: right;
+    width: 45%;
+    max-width: 370px
+}
+ul.list {
+    position: relative;
+    right: 2.5%
+}
+div.border {
+    border: 2px solid #336E7B;
+    border-radius: 2px;
+    padding: 3%;
+    background-color: #162225;
+    color: white
+}
+@media all and (max-width: 1080px) {
+    #sidebar {
+        width: 99%;
+        max-width: none;
+        margin-left: 0.5%;
+        margin-bottom: 0.5%;
+        max-height: 257px;
+        min-height: 257px
+    }
+    #header {
+        bottom: 60%;
+        border: none
+    }
+    #navbar {
+        bottom: 20%;
+        width: 100%
+    }
+    #content {
+        width: 89%;
+        margin-left: 0.5%;
+        margin-bottom: 0.5%
+    }
+    img.image {
+        width: 100%;
+        max-width: none;
+        margin: none
+    }
+    @media all and (max-width: 280px) {
+        body {
+            font-size: 100%;
+            position: absolute;
+            width: 99%
+        }
+        #sidebar {
+            font-size: 100%;
+            width: 100%;
+            max-height: 180px;
+            min-height: 180px;
+            margin-bottom: 0.5%;
+            margin-left: 0.5%
+        }
+        #header {
+            font-size: 2.5em;
+            bottom: 60%
+        }
+        #navbar {
+            font-size: 1.5em;
+            line-height: 20px;
+            bottom: 25%
+        }
+        #footer {
+            font-family: "Courier New", Courier, monospace;
+            font-size: 0.5em;
+            line-height: 10px
+        }
+        #content {
+            font-size: 85%;
+            width: 90%;
+            margin-bottom: 0.6%;
+            margin-left: 0.5%
+        }
+        #benefitslist {
+            position: relative;
+            right: 7.5%
+        }
+        ul.list {
+            position: relative;
+            right: 10%
+        }
+    }
